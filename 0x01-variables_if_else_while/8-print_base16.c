@@ -1,24 +1,24 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
  * main - Entry level
  *
- * Return - Always 0 (success)
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	char c;
 
-	int d;
+	char d;
 
 	c = 'a';
 	d = '0';
+
 	while
 		(d < 10) {
-			putchar(d + 0);
+			putchar(d + '0');
 			d++;
 		}
-
 	while
 		(c <= 'f') {
 			putchar(c);
